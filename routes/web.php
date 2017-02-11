@@ -14,3 +14,5 @@
 Route::get('/','MessageController@getHome')->name('home');
 
 Route::post('/message/new', 'MessageController@newMessage');
+
+Route::post('/message/decrypt','MessageController@decryptMessage');

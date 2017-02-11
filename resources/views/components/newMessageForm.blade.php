@@ -1,4 +1,5 @@
 <form class="ui form" action="/message/new" method="post">
+	{{ csrf_field() }}
 	<div class="three fields">
 		<div class="field">
 			<label for="message">Message</label>
